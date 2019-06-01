@@ -1,0 +1,4 @@
+dependencies {
+    compile project(":zeus-api:zeus-repository")
+    compile project(":zeus-api:zeus-service-api")
+}

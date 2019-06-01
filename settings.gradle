@@ -1,0 +1,14 @@
+rootProject.name = 'zeus-aggregator'
+include 'framework-api-starter'
+include 'zeus-api'
+include 'zeus-api:zeus-repository'
+findProject(':zeus-api:zeus-repository')?.name = 'zeus-repository'
+include 'zeus-api:zeus-service-api'
+findProject(':zeus-api:zeus-service-api')?.name = 'zeus-service-api'
+include 'zeus-api:zeus-service'
+findProject(':zeus-api:zeus-service')?.name = 'zeus-service'
+include 'zeus-api:zeus-protal'
+findProject(':zeus-api:zeus-protal')?.name = 'zeus-protal'
+
+
+

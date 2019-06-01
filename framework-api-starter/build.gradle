@@ -1,0 +1,11 @@
+dependencies {
+    compile "org.springframework.boot:spring-boot-starter-web:$springBootVersion"
+    compile "org.springframework.boot:spring-boot-starter-data-jpa:$springBootVersion"
+    compile "com.alibaba:fastjson:$alibabaFastJsonVersion"
+    compile('mysql:mysql-connector-java:8.0.16')
+    compile('com.alibaba:druid-spring-boot-starter:1.1.10')
+   /* compile "org.springframework.boot:spring-boot-starter-webflux:$springBootVersion"
+    compile "org.springframework.cloud:spring-cloud-starter-netflix-hystrix:$springCloudVersion"
+    compile "org.springframework.cloud:spring-cloud-starter-alibaba-nacos-discovery:$alibabaCloudVersion"
+    compile "org.springframework.cloud:spring-cloud-starter-alibaba-nacos-config:$alibabaCloudVersion"*/
+}

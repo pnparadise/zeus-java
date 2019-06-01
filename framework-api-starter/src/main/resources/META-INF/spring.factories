@@ -1,0 +1,11 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.framework.context.autoconfigure.MvcAutoConfiguration,\
+com.framework.context.autoconfigure.JsonErrorMvcAutoConfiguration,\
+com.framework.context.autoconfigure.JpaSoftDeleteRepositoriesAutoConfigureRegistrar
+
+
+org.springframework.boot.env.EnvironmentPostProcessor=\
+com.framework.context.autoconfigure.SpringApplicationPostProcessor
+
+# not functional
+spring.autoconfigure.exclude=
